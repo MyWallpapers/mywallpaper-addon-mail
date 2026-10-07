@@ -1,0 +1,17 @@
+{
+  "runtime": "canvas-native-v1",
+  "name": "Mail",
+  "description": "A local unified inbox powered by Cypht. Read, reply and compose across your IMAP accounts, with credentials protected on your Windows computer.",
+  "version": "0.1.0",
+  "entry": "dist/assets/addon.js",
+  "thumbnail": "assets/thumbnail.jpg",
+  "deviceSettingsVersion": "1",
+  "ui": { "pointerEvents": "auto" },
+  "native": { "companion": { "runtime": "process-v2", "entries": { "windows-x86_64": "native/out/windows-x86_64/bin/mail.exe" } } },
+  "settings": [
+    { "id": "appearance", "type": "section", "label": "Appearance" },
+    { "id": "opacity", "type": "range", "label": "Glass opacity", "scope": "layer", "min": 0.5, "max": 1, "step": 0.05, "default": 0.9 },
+    { "id": "blur", "type": "range", "label": "Glass blur", "scope": "layer", "min": 0, "max": 24, "step": 1, "default": 16 },
+    { "id": "language", "type": "select", "label": "Language", "scope": "layer", "default": "auto", "options": [{ "label": "Automatic", "value": "auto" }, { "label": "Français", "value": "fr" }, { "label": "English", "value": "en" }] }
+  ]
+}

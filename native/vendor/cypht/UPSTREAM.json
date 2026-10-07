@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/cypht-org/cypht",
+  "version": "2.12.2",
+  "commit": "fbaf979c3740a6e0f72e3a6c96e4a5102aae2133",
+  "files": {
+    "LICENSE": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+    "lib/repository.php": "657a726105aced8d0410a4b90d72d9ae23cdc817ccdd1074e6d29572cdc83b6e",
+    "lib/scram.php": "b64ed1b6a1ba345ed953ea2dc5d71de98c1d867b005275928e60bf7c87164a53",
+    "lib/searchable.php": "0ff05ba562a62f08deffa621f7f08bbfaccd3f6792626a5b52868f9e6de80556",
+    "lib/servers.php": "82516fd71631ed3cd25d9fa3c7093c2acb9d691022bb165eaadb800a81df91d8",
+    "modules/imap/hm-ews.php": "dd0d0c0d59595304737d58dc974e6f83ca08c8a4fed7b8e4c7805103fd2e27b2",
+    "modules/imap/hm-imap-base.php": "61b94555205f40534ccd1d689689410c708582066292ba7130143169d75b2818",
+    "modules/imap/hm-imap-bodystructure.php": "97da05aa9f1314d2cc8e0589fb9ada4d34bcb1f7fb716e382f0f60dd68369923",
+    "modules/imap/hm-imap-cache.php": "8a6f0322f8d1df472af6be5403ade9000d36872b67508fbf6a3af7acdb24ceea",
+    "modules/imap/hm-imap-parser.php": "27667dd24fc5d2557ed596bc66c77236dfc37db2c080181503d95dd1b0536633",
+    "modules/imap/hm-imap.php": "f62a55591d88b0fb555ad26bb1552dd5524c7d2adcac3b992287a704d07be3c8",
+    "modules/imap/hm-jmap.php": "556b7a5f90f4e194a35602491294d531d12243b90c721dabb58705112fcb503d",
+    "modules/smtp/hm-smtp.php": "8529c0184285c75aac48b0b4f99e31343ce9508c39a62d0f136600a861d1b401"
+  }
+}

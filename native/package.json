@@ -1,0 +1,7 @@
+{
+  "name": "mywallpaper-mail-companion", "version": "0.1.0", "private": true, "type": "module", "license": "GPL-2.0-only",
+  "engines": { "node": ">=22.22.0" },
+  "scripts": { "typecheck": "tsc --noEmit", "preview": "tsx src/preview-server.ts", "test": "node --import tsx --test test/*.test.ts" },
+  "dependencies": { "fflate": "0.8.2", "ws": "8.20.0" },
+  "devDependencies": { "@types/node": "22.19.7", "@types/ws": "8.18.1", "esbuild": "0.25.12", "postject": "1.0.0-alpha.6", "tsx": "4.21.0", "typescript": "5.8.3" }
+}

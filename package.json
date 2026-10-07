@@ -1,0 +1,16 @@
+{
+  "name": "mywallpaper-addon-mail",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-2.0-only",
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite --host 127.0.0.1 --port 5192 --strictPort",
+    "dev": "mywallpaper dev",
+    "check": "mywallpaper check"
+  },
+  "devDependencies": { "typescript": "5.8.3", "vite": "7.3.0" }
+}
