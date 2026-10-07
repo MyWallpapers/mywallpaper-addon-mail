@@ -27,7 +27,7 @@ Prerequisites for **building**: Node 22+, pnpm 10.33, npm. The pinned Windows PH
 ```sh
 pnpm install --frozen-lockfile
 pnpm build
-node native/build.mjs
+node native/build.mjs --target x86_64-pc-windows-msvc
 mywallpaper generate
 mywallpaper check
 mywallpaper dev

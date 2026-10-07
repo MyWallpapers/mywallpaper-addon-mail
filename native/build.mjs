@@ -4,6 +4,10 @@ import { copyFile, mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
+const args = process.argv.slice(2)
+if (args.length && (args.length !== 2 || args[0] !== '--target' || args[1] !== 'x86_64-pc-windows-msvc')) {
+  throw new Error('This companion supports only --target x86_64-pc-windows-msvc.')
+}
 const directory = dirname(fileURLToPath(import.meta.url))
 const root = dirname(directory)
 const scratch = join(directory, '.build')
