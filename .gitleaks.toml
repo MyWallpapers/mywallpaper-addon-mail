@@ -1,0 +1,10 @@
+title = "MyWallpaper mail add-on secret scanning policy"
+minVersion = "v8.25.0"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Self-signed localhost TLS key used only by the native integration test mail server (native/test/mail-server.ts)"
+targetRules = ["private-key"]
+paths = ['''(^|/)native/test/fixtures/localhost-key\.pem$''']
